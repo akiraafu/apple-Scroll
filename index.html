@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple scrolling</title>
+    <style>
+      html {
+        height: 500vh;
+      }
+      body {
+        background: #000;
+        color: white;
+        height: 500vh;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      canvas {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        max-height: 100vh;
+        max-width: 100vw;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Airpods Pro</h1>
+
+    <canvas></canvas>
+
+    <div class="landing_container"></div>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
